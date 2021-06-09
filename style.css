@@ -1,0 +1,242 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 150%;
+  line-height: 1.4;
+}
+
+
+.header {
+  position: relative;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Syncopate', sans-serif;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 3vw;
+  line-height: 5;
+  font-size: 3vw;
+  text-align: center;
+  
+}
+
+
+h2 {
+  font-family: 'Ballet', cursive;
+font-size: 80px;
+text-align:;
+display: flex;
+height: -10vh;
+
+}
+
+.name {
+  position: relative;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.para {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 10px;
+  height: auto;
+ width: 500px;
+ text-align: center;
+ align-items: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+.click {
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+
+
+
+  .gh:link, .gh:visited {
+    padding: 5px 5px 5px 5px;
+    text-align: center; 
+  }
+  
+  .gh:hover, .gh:active {
+    background-color: orangered;
+    height: 100px;
+  width: 100px;
+  border:none;
+  border-radius: 100px;
+  transition: 100px;
+  transition:0.5s;
+  transform:translateX(-20px)rotate(30deg);
+  transition:0.5s;
+  }
+
+  .li:link, .li:visited {
+    padding: 5px 5px 5px 5px;
+    text-align: center; 
+  
+  }
+  
+  .li:hover, .li:active {
+    background-color: orangered;
+    height: 100px;
+  width: 100px;
+  border:none;
+  border-radius: 100px;
+  transition: 100px;
+  transition:0.5s;
+  transform:translateX(-20px)rotate(30deg);
+  transition:0.5s;
+  }
+
+ .img {
+   display: flex;
+     position: relative;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+     
+ }
+
+ img {
+   border-radius: 50%;
+
+  
+ }
+
+
+ .img {
+
+  animation-name: grow;
+  animation-duration: 1s;
+  
+}
+ 
+
+ @keyframes grow {
+   from {
+    transform: scale(0);
+   } to {
+     transform: scale(1.5);
+   }
+ }
+
+
+ 
+ p {
+    color: whitesmoke;
+}
+
+
+button {
+  border: none;
+  background-image: linear-gradient(to bottom right,rgb(0, 119, 255), grey, white);
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+button:hover:before  {
+content: " HIRE ME ";
+font-family: 'Times New Roman', Times, serif;
+}
+
+button:active {
+ transform: translateY(10px);
+
+}
+
+.Contact{
+  margin-top: 30px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+
+input[type=submit] {
+  background-image: linear-gradient(to bottom right, rgb(0, 119, 255), grey, white);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+
+input[type=submit]:active {
+  transform: translateY(10px);
+}
+
+input[type=submit]:hover{
+  padding:  30px ;
+  transition: 1s;
+}
+
+.submit {
+  text-align: center;
+  height: 30px;
+  width: 500px;
+}
+
