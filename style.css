@@ -171,15 +171,20 @@ align-items: center;
     color: whitesmoke;
 }
 
+.dl:hover:before  {
+  content: "HIRE ME";
+  font-family: 'Times New Roman', Times, serif;
+  }
 
-button {
+
+.dl {
   border: none;
   background-image: linear-gradient(to bottom right,rgb(0, 119, 255), grey, white);
   color: whitesmoke;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -190,12 +195,8 @@ button {
 }
 
 
-button:hover:before  {
-content: " HIRE ME ";
-font-family: 'Times New Roman', Times, serif;
-}
 
-button:active {
+.dl:active {
  transform: translateY(10px);
 
 }
