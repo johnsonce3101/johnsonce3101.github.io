@@ -12,6 +12,7 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 150%;
   line-height: 1.4;
+  
 }
 
 
@@ -22,24 +23,27 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 h1 {
   font-family: 'Syncopate', sans-serif;
-  color: black;
+  color: rgba(245, 245, 245, 0.842);
   text-transform: uppercase;
   letter-spacing: 3vw;
   line-height: 5;
   font-size: 3vw;
   text-align: center;
+  text-shadow: 6px 6px 6px black;
   
 }
 
 
 h2 {
-  font-family: 'Ballet', cursive;
+font-family: 'Meddon', cursive;
+color: rgba(245, 245, 245, 0.842);
+ text-shadow: 6px 6px 6px black;
 font-size: 80px;
-text-align:;
 display: flex;
 height: -10vh;
 
@@ -76,6 +80,7 @@ height: -10vh;
  align-items: center;
 margin-left: auto;
 margin-right: auto;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 
@@ -171,19 +176,19 @@ align-items: center;
     color: whitesmoke;
 }
 
-.dl:hover:before  {
+.dl:hover:after  {
   content: "HIRE ME";
-  font-family: 'Times New Roman', Times, serif;
-  }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 
 
 .dl {
   border: none;
-  background-image: linear-gradient(to bottom right,rgb(0, 119, 255), grey, white);
+  background-image: linear-gradient(to bottom right,rgb(0, 119, 255), rgb(0, 119, 255), rgb(0, 119, 255));
   color: whitesmoke;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 15px;
   margin: 4px 2px;
   transition-duration: 0.4s;
@@ -191,7 +196,11 @@ align-items: center;
   height: 40px;
   width: 100px;
   border-radius: 5px 5px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+  height: 30px;
+  width: 500px;
+
 }
 
 
@@ -218,11 +227,12 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-  background-image: linear-gradient(to bottom right, rgb(0, 119, 255), grey, white);
+  background-image: linear-gradient(to bottom right, rgb(0, 119, 255), rgb(0, 119, 255), rgb(0, 119, 255));
   border: none;
   border-radius: 4px;
   cursor: pointer;
   color: whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 
