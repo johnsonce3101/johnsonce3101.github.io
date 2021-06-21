@@ -34,7 +34,7 @@ h1 {
   line-height: 5;
   font-size: 3vw;
   text-align: center;
-  text-shadow: 6px 6px 6px black;
+  text-shadow: 6px 6px 6px rgb(252, 2, 2);
   
 }
 
@@ -42,7 +42,7 @@ h1 {
 h2 {
 font-family: 'Meddon', cursive;
 color: rgba(245, 245, 245, 0.842);
- text-shadow: 6px 6px 6px black;
+ text-shadow: 6px 6px 6px rgb(111, 0, 255);
 font-size: 80px;
 display: flex;
 height: -10vh;
