@@ -107,6 +107,7 @@ align-items: center;
   .gh:link, .gh:visited {
     padding: 5px 5px 5px 5px;
     text-align: center; 
+    
   }
   
   .gh:hover, .gh:active {
@@ -190,17 +191,18 @@ align-items: center;
   color: whitesmoke;
   text-decoration: none;
   display: block;
-  font-size: 15px;
+  font-size: 14px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  height: 40px;
+  height: 25px;
   width: 100px;
   border-radius: 5px 5px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-align: center;
   height: 30px;
   width: 500px;
+  padding-top: 8px;
 
 }
 
@@ -234,6 +236,7 @@ input[type=submit] {
   cursor: pointer;
   color: whitesmoke;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 35px;
 }
 
 
@@ -250,5 +253,6 @@ input[type=submit]:hover{
   text-align: center;
   height: 30px;
   width: 500px;
+  text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
 }
 
