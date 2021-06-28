@@ -1,0 +1,115 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed; 
+  }
+
+
+/* LANDING PAGE STYLING */
+body {
+    font-size: 1.3rem;
+}
+ 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%; /* takes up the entire view width */
+    height: 100; /* takes up the entire view height */
+    display: flex;
+    /* max-width: 80%; */
+    margin: 0 auto; /* keeping things centered with different viewport sizes */
+   margin-top: 20%;
+   text-shadow: 4px 4px 4px rgb(51, 49, 49);
+}
+
+.container > * {
+    width: 100%;
+    /* any child of .container takes up 100% */
+}
+
+#home {
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: gray;
+}
+
+.btn {
+    margin-bottom: 1rem;
+}
+
+/* GAME PAGE STYLING */
+
+#quiz {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+  }
+
+  li {
+    display: inline;
+  }
+
+  .ul {
+    background-color: #dddddd;
+    /* border-radius: 5px; */
+  }
+ 
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  
+  
+}
+
+li {
+  float: left;
+}
+
+li .A {
+  display: flex;
+  position: relative;
+  color: rgba(189, 185, 185, 0.8);
+  padding: 7px 16px;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* border-radius: 4px; */
+  border: rgb(124, 120, 120);
+  height: 50px;
+  text-align: center;
+  margin-bottom: .5px;
+  text-shadow: 4px 4px 4px rgb(51, 49, 49);
+  
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+li .A:hover {
+  background-image: linear-gradient( #1f56bb, #2c4783);
+  color: black;
+}
