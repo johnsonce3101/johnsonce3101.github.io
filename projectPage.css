@@ -1,0 +1,55 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 20vh;
+    position: fixed;
+   
+  }
+
+
+
+
+
+h1 {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    text-shadow: 6px 6px 6px  rgba(255, 255, 255, 0.589) ;
+    color: #fff;
+    background: black;
+    font-family: 'Oswald', sans-serif;
+    /* mix-blend-mode:overlay; */
+    mix-blend-mode: multiply;
+    height: 177px ;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    font-size: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 100%;
+}
+
+  @media screen and (max-width: 500px) {
+    h1 {
+        width: 100%;
+    }
+
+ .pro {
+
+  }
+
+
+  .vC {
+
+   
+
+  }
+
+
+  
+/* 
+body {
+    background-color: black;
+} */
