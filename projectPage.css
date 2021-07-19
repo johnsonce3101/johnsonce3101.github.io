@@ -1,21 +1,26 @@
-#vid {
+.vid {
     object-fit: cover;
     width: 100vw;
-    height: 20vh;
+    height: 200px;
     position: fixed;
    
   }
 
+  /* @media screen and (max-width: 600px) {
+    #vid {
+      width: 36%;
+      height: 7%;
+    }
+  } */
+
 
 h1 {
-    display: flex;
     position: fixed;
-    flex-direction: column;
-    text-shadow: 6px 6px 6px  rgba(255, 255, 255, 0.589) ;
+    flex-direction: row;
+    text-shadow: 6px 6px 6px   rgb(53, 50, 50) ;
     color: #fff;
-    background: rgb(53, 50, 50);
     font-family: 'Oswald', sans-serif;
-    mix-blend-mode:overlay;
+    /* mix-blend-mode:overlay; */
     /* mix-blend-mode: multiply; */
     margin-top: auto;
     margin-bottom: auto;
@@ -28,25 +33,52 @@ h1 {
     padding: 0;
 }
 
+.pro {
+    mix-blend-mode:overlay;
+    height: 10%;
+    position: fixed;
+
+}
+
+/* @media screen and (max-width: 600px) {
+    .pro {
+        
+        display: flex;
+       flex-direction: row;
+       position: fixed;
+       margin-left: auto;
+       margin-right: auto;
+
+        
+    }
+  } */
+
 img { 
-  padding-top: 195px;
+  padding-top: 200px;
   opacity: .4;
   display: flex;
  position: fixed;
 
 }
 
+
+
 .QV {
     display: flex;
-    position: relative;
+    position: fixed;
     flex-direction: row;
 }
 
+
 .QT {
-    padding: 0;
+    
     color: #fff;
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    position:relative;
     
 }
 
@@ -55,11 +87,13 @@ img {
   }
 
 .qP {
-    margin-top: 200px;
+    margin-top: 12%;
     padding: 5px;
-    position: relative;
-    margin-left: 53%;
+    margin-left: 26%;
+    position: relative
+
 }
+
 
 .btn {
     border: none;
@@ -68,9 +102,10 @@ img {
     font-size: 16px;
     cursor: pointer;
     display: flex;
+    position: relative;
   }
 
-  .btn {
+  .btn{
     border: none;
     background-image: linear-gradient(to bottom right,rgb(0, 0, 0), rgb(16, 17, 19), rgb(11, 13, 15));
     color: whitesmoke;
@@ -84,7 +119,7 @@ img {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     height: 30px;
-    width: 742.5px;
+    /* width: 742.5px; */
     padding-top: 8px;
   
   }
@@ -106,5 +141,52 @@ img {
       display: flex;
   }
 
-   
+/* 600PX*/
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    video {
+      height: 300px;
+      width: 450px;
+      position: relative;
+    
+    }
+  }
+ 
+@media screen and (max-width: 1000px) {
+    .qP {
+        margin-top: 40%;
+        display: flex;
+        position:relative;
+        flex-direction: column;
+        /* margin-left: 2.5%; */
+        margin-left: auto;
+        margin-right: auto;
+
+    
+    }
+  }
+
+
+
+@media screen and (max-width: 1000px) {
+    .btn {
+   display: flex;
+   position: absolute;
+   width: 392px;
+  justify-content: center;
+        
+    }
+  }
+
   
