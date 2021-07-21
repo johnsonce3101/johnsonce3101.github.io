@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@500&display=swap');
 
 
+
+
+
 /* HEADER 
 =================================================*/
 .header-vid {
@@ -117,6 +120,7 @@ img {
   }
 
   .all {
+    background-color: black;
       display: flex;
   }
 
