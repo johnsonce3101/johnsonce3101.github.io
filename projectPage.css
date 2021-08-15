@@ -3,16 +3,7 @@
     width: 100%;
     height: 22.5%;
     position: fixed;
-   
   }
-
-  /* @media screen and (max-width: 600px) {
-    #vid {
-      width: 36%;
-      height: 7%;
-    }
-  } */
-
 
 h1 {
     position: fixed;
@@ -20,8 +11,6 @@ h1 {
     text-shadow: 6px 6px 6px   rgb(53, 50, 50) ;
     color: #fff;
     font-family: 'Oswald', sans-serif;
-    /* mix-blend-mode:overlay; */
-    /* mix-blend-mode: multiply; */
     margin-top: auto;
     margin-bottom: auto;
     font-size: 800%;
@@ -31,30 +20,17 @@ h1 {
     width: 100%;
     text-align: center;
     padding: 0;
+    text-transform: uppercase;
 }
 
 .pro {
     mix-blend-mode:overlay;
-    /* height: 10%; */
-    /* position: fixed; */
 
 }
 
-/* @media screen and (max-width: 600px) {
-    .pro {
-        
-        display: flex;
-       flex-direction: row;
-       position: fixed;
-       margin-left: auto;
-       margin-right: auto;
-
-        
-    }
-  } */
 
 img { 
-  padding-top: 200px;
+  padding-top: 186px;
   height: 90%;
   width: auto;
   opacity: .4;
@@ -83,15 +59,13 @@ img {
     
 }
 
-/* .row {
-    display: flex;
-  } */
+
 
 .qP {
     margin-top: 12%;
     padding: 5px;
     margin-left: 26%;
-    position: relative
+    position: relative;
 
 }
 
@@ -137,160 +111,483 @@ img {
     transform: translateY(10px);
    
   }
+  
+  
+  @media (min-width: 200px) {
 
-  .all {
+    img { 
+      padding-top: 180px;
+      height: 90%;
+      width: auto;
+      opacity: .4;
       display: flex;
-  }
-
-/* 600PX*/
-
-@media screen and (max-width: 600px) {
-    h1 {
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-        font-size: 7em;
-        
-    }
-  }
-
-@media screen and (max-width: 600px) {
-    video {
-      height: 70%;
-      width: 94.5%;
-      position: relative;
+     position: fixed;
     
     }
-  }
- 
-@media screen and (max-width: 600px) {
-    .qP {
-        margin-top: 40%;
-        display: flex;
-        position:relative;
-        flex-direction: column;
-        /* margin-left: 2.5%; */
-        margin-left: auto;
-        margin-right: auto;
-
-    
-    }
-  }
 
 
-
-@media screen and (max-width: 600px) {
     .btn {
    display: flex;
    position: absolute;
-  justify-content: center;
-        
-    }
-  }
-
-
-  /* 768px */
-  
-
-  /* 800px */
-
-  @media screen and (max-width: 1025px) {
-    h1 {
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-        font-size: 7em;
-        
-    }
-  }
-
-  @media screen and (max-width: 1025px) {
-    video {
-      height: 70%;
-      width: 94.5%;
-      position: relative;
-    
-    }
-  }
-
-  @media screen and (max-width: 1025px) {
-    .qP {
-        margin-top: 35%;
-        display: flex;
-        position:relative;
-        flex-direction: column;
-        /* margin-left: 2.5%; */
-        margin-left: auto;
-        margin-right: auto;
-
-    
-    }
-  }
-
-  @media screen and (max-width: 1025px) {
-    .btn {
-   display: flex;
-   position: absolute;
-   width: 84.3%;
+   width: 74%;
   justify-content: center;
   height: 6%;
+  padding-bottom: 7%;
         
-    }
+  }
+
+    .qP {
+      margin-top: 65%;
+      padding: 5px;
+      margin-left: 2%;
+      position: relative;
+  
+  }
+
+  video {
+    height: 60%;
+    width: 100%;
+    position: relative;
+  }
+
+  h1 {
+    margin-top: 8%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 4em;
+
+    
+    
+}
+    
+  
   }
 
 
   
+  @media (min-width:320px) {
 
-
-
-
-
-  /* @media screen and (max-width: 900px) {
-    h1 {
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-        font-size: 7em;
-        
-    }
-  }
-
-  @media screen and (max-width: 900px) {
-    video {
-      height: 70%;
-      width: 94.5%;
-      position: relative;
+    img { 
+      padding-top: 180px;
+      height: 90%;
+      width: auto;
+      opacity: .4;
+      display: flex;
+     position: fixed;
     
     }
-  }
 
-  @media screen and (max-width: 900px) {
-    .qP {
-        margin-top: 40%;
-        display: flex;
-        position:relative;
-        flex-direction: column;
-        /* margin-left: 2.5%; */
-        margin-left: auto;
-        margin-right: auto;
 
-    
-    }
-  }
-
-  @media screen and (max-width: 900px) {
     .btn {
    display: flex;
    position: absolute;
-   width: 84.3%;
+   width: 73%;
   justify-content: center;
   height: 6%;
+  padding-bottom: 4.5%;
         
+  }
+
+    .qP {
+      margin-top: 40%;
+      padding: 5px;
+      margin-left: 13%;
+      position: relative;
+  
+  }
+
+  video {
+    height: 60%;
+    width: 90%;
+    position: relative;
+  }
+
+  h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 7em;
+
+    
+    
+}
+    
+  
+  }
+  
+  
+  @media (min-width:480px) {
+
+    img { 
+      padding-top: 180px;
+      height: 90%;
+      width: auto;
+      opacity: .4;
+      display: flex;
+     position: fixed;
+    
     }
-  } */
+
+
+    .btn {
+   display: flex;
+   position: absolute;
+   width: 75.9%;
+  justify-content: center;
+  height: 6%;
+  padding-bottom: 4.5%;
+        
+  }
+
+    .qP {
+      margin-top: 25%;
+      padding: 5px;
+      margin-left: 13%;
+      position: relative;
+  
+  }
+
+  video {
+    height: 60%;
+    width: 90%;
+    position: relative;
+  }
+
+  h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 7em;
+
+    
+    
+}
+    
+  
+    
+  }
+  
+  
+  @media (min-width:540px ) {
+
+    img { 
+      padding-top: 180px;
+      height: 90%;
+      width: auto;
+      opacity: .4;
+      display: flex;
+     position: fixed;
+    
+    }
+
+
+    .btn {
+   display: flex;
+   position: absolute;
+   width: 77%;
+  justify-content: center;
+  height: 6%;
+  padding-bottom: 4.5%;
+        
+  }
+
+    .qP {
+      margin-top: 25%;
+      padding: 5px;
+      margin-left: 13%;
+      position: relative;
+  
+  }
+
+  video {
+    height: 70%;
+    width: 90%;
+    position: relative;
+  
+  }
+
+  h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 7em;
+
+    
+    
+}
+
+
+@media (min-width:600px ) {
+
+  img { 
+    padding-top: 180px;
+    height: 90%;
+    width: auto;
+    opacity: .4;
+    display: flex;
+   position: fixed;
+  
+  }
+
+
+  .btn {
+ display: flex;
+ position: absolute;
+ width: 80%;
+justify-content: center;
+height: 6%;
+padding-bottom: 4.5%;
+      
+}
+
+  .qP {
+    margin-top: 25%;
+    padding: 5px;
+    margin-left: 13%;
+    position: relative;
+
+}
+
+video {
+  height: 70%;
+  width: 90%;
+  position: relative;
+
+}
+
+h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  font-size: 7em;
+
+  
+  
+}
+
+
+    
+  }
+  
+
+  @media (min-width:768px ) {
+
+    img { 
+      padding-top: 180px;
+      height: 90%;
+      width: auto;
+      opacity: .4;
+      display: flex;
+     position: fixed;
+    
+    }
+
+
+    .btn {
+      display: flex;
+      position: absolute;
+      width: 81%;
+     justify-content: center;
+     height: 6%;
+     padding-bottom: 1%;
+           
+     }
+
+     .qP {
+      margin-top: 25%;
+      padding: 5px;
+      margin-left: 10%;
+      position: relative;
+      font-size: 1em;
+  
+  }
+
+  video {
+    height: 50%;
+    width: 90%;
+    position: relative;
+  
+  }
+
+  h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 7em;
+
+    
+    
+}
+    
+  }
+  
+
+  @media screen and (min-width: 1024px) {
+
+    img { 
+      padding-top: 180px;
+      height: 90%;
+      width: auto;
+      opacity: .4;
+      display: flex;
+     position: fixed;
+    
+    }
+
+
+    .btn {
+   display: flex;
+   position: absolute;
+   width: 72.7%;
+  justify-content: center;
+  height: 6%;
+  padding-bottom: 1%;
+        
+  }
+
+    .qP {
+      margin-top: 30%;
+      padding: 5px;
+      margin-left: 23%;
+      position: relative;
+      font-size: 1em;
+  
+  }
+
+  video {
+    height: 50%;
+    width: 80%;
+    position: relative;
+  
+  }
+
+  h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 7em; 
+    
+}
+  
+  }
+
+
+
+  @media screen and (min-width: 1200px) {
+
+    img { 
+      padding-top: 180px;
+      height: 90%;
+      width: auto;
+      opacity: .4;
+      display: flex;
+     position: fixed;
+    
+    }
+
+
+    .btn {
+   display: flex;
+   position: absolute;
+   width: 59%;
+  justify-content: center;
+  height: 6%;
+  padding-bottom: 2%;
+        
+  }
+
+    .qP {
+      margin-top: 11%;
+      padding: 5px;
+      margin-left: 26%;
+      position: relative;
+      font-size: 1em;
+  
+  }
+
+  video {
+    height: 50%;
+    width: 65%;
+    position: relative;
+  
+  }
+
+  h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 7em;
+    
+}
+
+  }
+
+
+  @media screen and (min-width: 1400px) {
+
+    img { 
+      padding-top: 200px;
+      height: 90%;
+      width: auto;
+      opacity: .4;
+      display: flex;
+     position: fixed;
+     
+    
+    }
+
+
+    .btn {
+   display: flex;
+   position: absolute;
+   width: 60%;
+  justify-content: center;
+  height: 6%;
+  padding-bottom: 1%;
+        
+  }
+
+    .qP {
+      margin-top: 11%;
+      padding: 5px;
+      margin-left: 26%;
+      position: relative;
+  
+  }
+
+  video {
+    height: 50%;
+    width: 65%;
+    position: relative;
+  
+  }
+
+  h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 7em;
+    
+    
+}
+  }
+
+  }
