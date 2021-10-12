@@ -68,6 +68,9 @@ img {
     position: relative;
 
 }
+.qP2{
+  margin-top: 10%;
+}
 
 
 .btn {
@@ -198,6 +201,7 @@ img {
       position: relative;
   
   }
+  
 
   video {
     height: 60%;
@@ -239,8 +243,8 @@ img {
    position: absolute;
    width: 75.9%;
   justify-content: center;
-  height: 6%;
-  padding-bottom: 4.5%;
+  height: 4%;
+  padding-bottom: 2.5%;
         
   }
 
@@ -251,6 +255,11 @@ img {
       position: relative;
   
   }
+
+  .qP2{
+    margin-top: 20%;
+  }
+ 
 
   video {
     height: 60%;
@@ -305,7 +314,7 @@ img {
       position: relative;
   
   }
-
+ 
   video {
     height: 70%;
     width: 90%;
@@ -356,6 +365,7 @@ padding-bottom: 1.5%;
     position: relative;
 
 }
+
 
 video {
   height: 70%;
@@ -412,6 +422,7 @@ h1 {
       font-size: 1em;
   
   }
+  
 
   video {
     height: 50%;
@@ -520,6 +531,7 @@ h1 {
   
   }
 
+
   video {
     height: 50%;
     width: 65%;
@@ -559,7 +571,7 @@ h1 {
    position: absolute;
    width: 60%;
   justify-content: center;
-  height: 6%;
+  height: 4%;
   padding-bottom: 1%;
         
   }
@@ -569,8 +581,15 @@ h1 {
       padding: 5px;
       margin-left: 26%;
       position: relative;
+    
   
   }
+
+  .qP2{
+    margin-top: 10%;
+
+  }
+
 
   video {
     height: 50%;
