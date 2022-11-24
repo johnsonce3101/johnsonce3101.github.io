@@ -2,7 +2,8 @@
     object-fit: cover;
     width: 100%;
     height: 22.5%;
-    position: fixed;
+    /* position: fixed; */
+	position: absolute;
   }
 
 h1 {
@@ -29,16 +30,28 @@ h1 {
 }
 
 
-img { 
-  padding-top: 186px;
-  height: 100%;
+.backbtn { 
+text-decoration: none;
+  padding-top: 100px;
+  /* height: 100%; */
   width: auto;
-  opacity: .4;
+  /* opacity: .4; */
   display: flex;
  position: fixed;
-
+ color: white;
+ font-family: 'Oswald', sans-serif;
+ font-size: 1.2em;
+cursor: pointer;
+transition: transform .2s;
 }
 
+.backbtn:hover {
+    /* background-image: linear-gradient( rgb(255, 255, 255), rgb(224, 224, 224)); */
+    color:rgb(0, 119, 255);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
+	transform: scale(1.02);
+  }
 
 
 .QV {
@@ -118,11 +131,10 @@ img {
   
   @media (min-width: 200px) {
 
-    img { 
+    .backbtn { 
       padding-top: 180px;
       height: 90%;
       width: auto;
-      opacity: .4;
       display: flex;
      position: fixed;
     
@@ -173,11 +185,10 @@ img {
   
   @media (min-width:320px) {
 
-    img { 
-      padding-top: 180px;
+	.backbtn { 
+      padding-top: 100px;
       height: 90%;
       width: auto;
-      opacity: .4;
       display: flex;
      position: fixed;
     
@@ -227,11 +238,10 @@ img {
   
   @media (min-width:480px) {
 
-    img { 
-      padding-top: 180px;
+	.backbtn { 
+      padding-top: 100px;
       height: 90%;
       width: auto;
-      opacity: .4;
       display: flex;
      position: fixed;
     
@@ -286,11 +296,10 @@ img {
   
   @media (min-width:540px ) {
 
-    img { 
-      padding-top: 180px;
+	.backbtn { 
+      padding-top: 100px;
       height: 90%;
       width: auto;
-      opacity: .4;
       display: flex;
      position: fixed;
     
@@ -337,11 +346,10 @@ img {
 
 @media (min-width:600px ) {
 
-  img { 
-    padding-top: 180px;
+    .backbtn { 
+    padding-top: 100px;
     height: 90%;
     width: auto;
-    opacity: .4;
     display: flex;
    position: fixed;
   
@@ -393,11 +401,10 @@ h1 {
 
   @media (min-width:768px ) {
 
-    img { 
-      padding-top: 180px;
+	.backbtn { 
+      padding-top: 100px;
       height: 90%;
       width: auto;
-      opacity: .4;
       display: flex;
      position: fixed;
     
@@ -448,11 +455,10 @@ h1 {
 
   @media screen and (min-width: 1024px) {
 
-    img { 
-      padding-top: 180px;
+	.backbtn { 
+      padding-top: 100px;
       height: 90%;
       width: auto;
-      opacity: .4;
       display: flex;
      position: fixed;
     
@@ -501,11 +507,10 @@ h1 {
 
   @media screen and (min-width: 1200px) {
 
-    img { 
-      padding-top: 180px;
+	.backbtn { 
+      padding-top: 100px;
       height: 90%;
       width: auto;
-      opacity: .4;
       display: flex;
      position: fixed;
     
@@ -554,11 +559,10 @@ h1 {
 
   @media screen and (min-width: 1400px) {
 
-    img { 
-      padding-top: 200px;
+	.backbtn { 
+      padding-top: 100px;
       height: 90%;
       width: auto;
-      opacity: .4;
       display: flex;
      position: fixed;
      
