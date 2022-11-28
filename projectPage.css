@@ -33,9 +33,8 @@ h1 {
 .backbtn { 
 text-decoration: none;
   padding-top: 100px;
-  /* height: 100%; */
+padding-bottom: 0%;
   width: auto;
-  /* opacity: .4; */
   display: flex;
  position: fixed;
  color: white;
@@ -98,7 +97,7 @@ transition: transform .2s;
 
   .btn{
     border: none;
-    background-image: linear-gradient(to bottom right,rgb(0, 0, 0), rgb(16, 17, 19), rgb(11, 13, 15));
+    background-image: linear-gradient(to bottom right,rgb(0, 0, 0), rgb(16, 17, 19), #121212);
     color: whitesmoke;
     text-decoration: none;
     display: block;
@@ -133,7 +132,7 @@ transition: transform .2s;
 
     .backbtn { 
       padding-top: 180px;
-      height: 90%;
+	  padding-bottom: 0%;
       width: auto;
       display: flex;
      position: fixed;
@@ -187,10 +186,11 @@ transition: transform .2s;
 
 	.backbtn { 
       padding-top: 100px;
-      height: 90%;
+	  padding-bottom: 0%;
       width: auto;
       display: flex;
      position: fixed;
+	 font-size: 1em;
     
     }
 
@@ -198,9 +198,9 @@ transition: transform .2s;
     .btn {
    display: flex;
    position: absolute;
-   width: 73%;
+   width: 64.5%;
   justify-content: center;
-  height: 6%;
+  height: 3.8%;
   padding-bottom: 4.5%;
         
   }
@@ -240,10 +240,11 @@ transition: transform .2s;
 
 	.backbtn { 
       padding-top: 100px;
-      height: 90%;
+	  padding-bottom: 0%;
       width: auto;
       display: flex;
      position: fixed;
+	 font-size: 1.1em;
     
     }
 
@@ -251,7 +252,7 @@ transition: transform .2s;
     .btn {
    display: flex;
    position: absolute;
-   width: 75.9%;
+   width: 73.8%;
   justify-content: center;
   height: 4%;
   padding-bottom: 2.5%;
@@ -298,7 +299,7 @@ transition: transform .2s;
 
 	.backbtn { 
       padding-top: 100px;
-      height: 90%;
+	  padding-bottom: 0%;
       width: auto;
       display: flex;
      position: fixed;
@@ -309,10 +310,11 @@ transition: transform .2s;
     .btn {
    display: flex;
    position: absolute;
-   width: 77%;
+   width: 76.8%;
   justify-content: center;
-  height: 6%;
+  height: 2.3%;
   padding-bottom: 4.5%;
+  font-size: 1.5em;
         
   }
 
@@ -348,7 +350,7 @@ transition: transform .2s;
 
     .backbtn { 
     padding-top: 100px;
-    height: 90%;
+	padding-bottom: 0%;
     width: auto;
     display: flex;
    position: fixed;
@@ -359,9 +361,9 @@ transition: transform .2s;
   .btn {
  display: flex;
  position: absolute;
- width: 80%;
+ width: 79.5%;
 justify-content: center;
-height: 6%;
+height: 4.5%;
 padding-bottom: 1.5%;
       
 }
@@ -403,7 +405,7 @@ h1 {
 
 	.backbtn { 
       padding-top: 100px;
-      height: 90%;
+	  padding-bottom: 0%;
       width: auto;
       display: flex;
      position: fixed;
@@ -414,9 +416,9 @@ h1 {
     .btn {
       display: flex;
       position: absolute;
-      width: 72%;
+      width: 71.5%;
      justify-content: center;
-     height: 6%;
+     height: 4.3%;
      padding-bottom: 1%;
            
      }
@@ -457,7 +459,7 @@ h1 {
 
 	.backbtn { 
       padding-top: 100px;
-      height: 90%;
+	  padding-bottom: 0%;
       width: auto;
       display: flex;
      position: fixed;
@@ -468,9 +470,9 @@ h1 {
     .btn {
    display: flex;
    position: absolute;
-   width: 72.7%;
+   width: 72.5%;
   justify-content: center;
-  height: 6%;
+  height: 3.5%;
   padding-bottom: 1%;
         
   }
@@ -509,7 +511,7 @@ h1 {
 
 	.backbtn { 
       padding-top: 100px;
-      height: 90%;
+	  padding-bottom: 0%;
       width: auto;
       display: flex;
      position: fixed;
@@ -520,9 +522,9 @@ h1 {
     .btn {
    display: flex;
    position: absolute;
-   width: 59%;
+   width: 58.5%;
   justify-content: center;
-  height: 6%;
+  height: 2.5%;
   padding-bottom: 2%;
         
   }
@@ -560,8 +562,8 @@ h1 {
   @media screen and (min-width: 1400px) {
 
 	.backbtn { 
-      padding-top: 100px;
-      height: 90%;
+      padding-top: 125px;
+	  padding-bottom: 0%;
       width: auto;
       display: flex;
      position: fixed;
@@ -573,7 +575,7 @@ h1 {
     .btn {
    display: flex;
    position: absolute;
-   width: 60%;
+   width: 59.5%;
   justify-content: center;
   height: 4%;
   padding-bottom: 1%;
@@ -581,7 +583,7 @@ h1 {
   }
 
     .qP {
-      margin-top: 11%;
+      margin-top: 14%;
       padding: 5px;
       margin-left: 26%;
       position: relative;
@@ -612,4 +614,59 @@ h1 {
 }
   }
 
+  @media screen and (min-width: 1600px) {
+
+	.backbtn { 
+      padding-top: 107px;
+	  padding-bottom: 0%;
+      width: auto;
+      display: flex;
+     position: fixed;
+     
+    
+    }
+
+
+    .btn {
+   display: flex;
+   position: absolute;
+   width: 59.8%;
+  justify-content: center;
+  height: 3.5%;
+  padding-bottom: 1%;
+        
   }
+
+    .qP {
+      margin-top: 12%;
+      padding: 5px;
+      margin-left: 26%;
+      position: relative;
+    
+  
+  }
+
+  .qP2{
+    margin-top: 10%;
+  }
+
+
+  video {
+    height: 50%;
+    width: 65%;
+    position: relative;
+  
+  }
+
+  h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 7em;
+    
+}
+  }
+
+  
