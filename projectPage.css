@@ -131,7 +131,7 @@ transition: transform .2s;
   @media (min-width: 200px) {
 
     .backbtn { 
-      padding-top: 180px;
+      padding-top: 100px;
 	  padding-bottom: 0%;
       width: auto;
       display: flex;
@@ -668,5 +668,3 @@ h1 {
     
 }
   }
-
-  
