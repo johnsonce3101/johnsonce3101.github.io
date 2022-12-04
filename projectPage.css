@@ -4,16 +4,24 @@
     height: 22.5%;
     /* position: fixed; */
 	position: absolute;
+
   }
 
-h1 {
+
+  body{ 
+	background-color: black;
+	
+  }
+
+
+
+
+/* h1 {
     position: fixed;
-    flex-direction: row;
     text-shadow: 6px 6px 6px   rgb(53, 50, 50) ;
     color: #fff;
     font-family: 'Oswald', sans-serif;
     margin-top: auto;
-    margin-bottom: auto;
     font-size: 800%;
     margin-left: auto;
     margin-right: auto;
@@ -22,46 +30,59 @@ h1 {
     text-align: center;
     padding: 0;
     text-transform: uppercase;
-}
+} */
 
 .pro {
     mix-blend-mode:overlay;
-
+    text-shadow: 6px 6px 6px   rgb(53, 50, 50) ;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-top: auto;
+    font-size: 8em;	
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+	position: fixed;
 }
 
 
 .backbtn { 
+	background: -webkit-linear-gradient(#fff, rgb(214, 214, 214), rgb(50, 50, 50));
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+    color: #fff;
 text-decoration: none;
-  padding-top: 100px;
-padding-bottom: 0%;
+margin-top: 12%;
   width: auto;
   display: flex;
  position: fixed;
  color: white;
  font-family: 'Oswald', sans-serif;
- font-size: 1.2em;
+ font-size: 1.7em;
 cursor: pointer;
 transition: transform .2s;
 }
 
 .backbtn:hover {
-    /* background-image: linear-gradient( rgb(255, 255, 255), rgb(224, 224, 224)); */
-    color:rgb(0, 119, 255);
+	background: -webkit-linear-gradient(rgb(0, 119, 255), rgb(32, 108, 196), rgb(0, 26, 56));
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  
     font-family: 'Oswald', sans-serif;
     text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
 	transform: scale(1.02);
   }
 
 
-.QV {
-    display: flex;
-    position: fixed;
-    flex-direction: column;
+video{
+	width: 100%;
+	height: 65%;
 }
 
-
 .QT {
-    
+	background: -webkit-linear-gradient(#fff, rgb(214, 214, 214), rgb(50, 50, 50));
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
     color: #fff;
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
@@ -72,27 +93,22 @@ transition: transform .2s;
 }
 
 
-
-.qP {
-    margin-top: 12%;
-    padding: 5px;
-    margin-left: 26%;
-    position: relative;
+.container {
+	/* background-color: black; */
+    margin-top: 13%;
+    margin-left:19%;
+	margin-left: 19%;
+    position: absolute;
+	width: 65%;
 
 }
-.qP2{
-  margin-top: 10%;
-}
-
 
 .btn {
     border: none;
-    background-color: white;
-    padding: 14px 28px;
-    /* font-size: 1em; */
     cursor: pointer;
     display: flex;
     position: relative;
+	
   }
 
   .btn{
@@ -108,9 +124,9 @@ transition: transform .2s;
     /* border-radius: 5px 5px; */
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    height: 9%;
-    width: 61.8%;
-    padding-top: 1%;
+    width: 100%;
+    padding-top: 3%;
+	padding-bottom: 3%;
   
   }
 
@@ -131,51 +147,55 @@ transition: transform .2s;
   @media (min-width: 200px) {
 
     .backbtn { 
-      padding-top: 100px;
-	  padding-bottom: 0%;
-      width: auto;
-      display: flex;
-     position: fixed;
-    
-    }
-
-
-    .btn {
-   display: flex;
-   position: absolute;
-   width: 74%;
-  justify-content: center;
-  height: 6%;
-  padding-bottom: 7%;
-        
-  }
-
-    .qP {
-      margin-top: 90%;
-      padding: 5px;
-      margin-left: 5%;
-      position: relative;
-      font-size: .7em;
+		margin-top: 82.5%;
+		width: auto;
+		display: flex;
+	   position: fixed;
+	   font-size: 1.2em;
+	  
+	  }
   
+  
+	  .btn {
+	 display: flex;
+	 position: absolute;
+	 width: 100%;
+	justify-content: center;
+	  padding-top: 3%;
+	  padding-bottom: 3%;
+	font-size: 1em;
+		  
+	}
+  
+	  .container {
+		  margin-top: 90%;
+		  margin-left:19%;
+		  margin-left: 19%;
+		  position: absolute;
+		  width: 65%;
+	}
+  
+  
+	video {
+	  height: 50%;
+	  width: 100%;
+	  position: relative;
+	
+	}
+  
+	.pro {
+	  margin-top: 23%;
+	  font-size: 2.5em;	
+	  width: 100%;
+	  text-align: center;
+	  text-transform: uppercase;
+	  position: fixed;
+	  
   }
-
-  video {
-    height: 60%;
-    width: 108%;
-    position: relative;
+  .QT{
+	  font-size: 1.5em;
+	  padding-top: 20px;
   }
-
-  h1 {
-    margin-top: 25%;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    font-size: 3em;
-
-    
-    
-}
     
   
   }
@@ -185,53 +205,55 @@ transition: transform .2s;
   @media (min-width:320px) {
 
 	.backbtn { 
-      padding-top: 100px;
-	  padding-bottom: 0%;
-      width: auto;
-      display: flex;
-     position: fixed;
-	 font-size: 1em;
-    
-    }
-
-
-    .btn {
-   display: flex;
-   position: absolute;
-   width: 64.5%;
-  justify-content: center;
-  height: 3.8%;
-  padding-bottom: 4.5%;
-        
-  }
-
-    .qP {
-      margin-top: 50%;
-      padding: 5px;
-      margin-left: 13%;
-      position: relative;
+		margin-top: 53%;
+		width: auto;
+		display: flex;
+	   position: fixed;
+	   font-size: 1.3em;
+	  
+	  }
   
-  }
   
-
-  video {
-    height: 60%;
-    width: 90%;
-    position: relative;
+	  .btn {
+	 display: flex;
+	 position: absolute;
+	 width: 100%;
+	justify-content: center;
+	  padding-top: 3%;
+	  padding-bottom: 3%;
+	
+		  
+	}
+  
+	  .container {
+		  margin-top: 52%;
+		  margin-left:19%;
+		  margin-left: 19%;
+		  position: absolute;
+		  width: 65%;
+	}
+  
+  
+	video {
+	  height: 50%;
+	  width: 100%;
+	  position: relative;
+	
+	}
+  
+	.pro {
+	  margin-top: 10%;
+	  font-size: 3.8em;	
+	  width: 100%;
+	  text-align: center;
+	  text-transform: uppercase;
+	  position: fixed;
+	  
   }
-
-  h1 {
-    margin-top: 12%;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    font-size: 4.2em;
-
-    
-    
-}
-    
+    .QT{
+		font-size: 2.5em;
+		padding-top: 15px;
+	}
   
   }
   
@@ -239,57 +261,51 @@ transition: transform .2s;
   @media (min-width:480px) {
 
 	.backbtn { 
-      padding-top: 88px;
-	  padding-bottom: 0%;
-      width: auto;
-      display: flex;
-     position: fixed;
-	 font-size: 1.1em;
-    
-    }
-
-
-    .btn {
-   display: flex;
-   position: absolute;
-   width: 73.8%;
-  justify-content: center;
-  height: 4%;
-  padding-bottom: 2.5%;
-        
-  }
-
-    .qP {
-      margin-top: 40%;
-      padding: 5px;
-      margin-left: 13%;
-      position: relative;
+		margin-top: 36%;
+		width: auto;
+		display: flex;
+	   position: fixed;
+	   font-size: 1.7em;
+	  
+	  }
   
+  
+	  .btn {
+	 display: flex;
+	 position: absolute;
+	 width: 100%;
+	justify-content: center;
+	  padding-top: 3%;
+	  padding-bottom: 3%;
+	
+		  
+	}
+  
+	  .container {
+		  margin-top: 36%;
+		  margin-left:19%;
+		  margin-left: 19%;
+		  position: absolute;
+		  width: 65%;
+	}
+  
+  
+	video {
+	  height: 50%;
+	  width: 100%;
+	  position: relative;
+	
+	}
+  
+	.pro {
+	  margin-top: auto;
+	  font-size: 6.2em;	
+	  width: 100%;
+	  text-align: center;
+	  text-transform: uppercase;
+	  position: fixed;
+	  
   }
-
-  .qP2{
-    margin-top: 20%;
-  }
- 
-
-  video {
-    height: 60%;
-    width: 90%;
-    position: relative;
-  }
-
-  h1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    font-size: 7em;
-
-    
-    
-}
-    
   
     
   }
@@ -298,49 +314,49 @@ transition: transform .2s;
   @media (min-width:540px ) {
 
 	.backbtn { 
-      padding-top: 88px;
-	  padding-bottom: 0%;
-      width: auto;
-      display: flex;
-     position: fixed;
-    
-    }
-
-
-    .btn {
-   display: flex;
-   position: absolute;
-   width: 76.8%;
-  justify-content: center;
-  height: 2.3%;
-  padding-bottom: 4.5%;
-  font-size: 1.5em;
-        
-  }
-
-    .qP {
-      margin-top: 30%;
-      padding: 5px;
-      margin-left: 13%;
-      position: relative;
+		margin-top: 33%;
+		width: auto;
+		display: flex;
+	   position: fixed;
+	   font-size: 1.7em;
+	  
+	  }
   
-  }
- 
-  video {
-    height: 70%;
-    width: 90%;
-    position: relative;
   
+	  .btn {
+	 display: flex;
+	 position: absolute;
+	 width: 100%;
+	justify-content: center;
+	  padding-top: 3%;
+	  padding-bottom: 3%;
+	}
+  
+	  .container {
+		  margin-top: 34%;
+		  margin-left:19%;
+		  margin-left: 19%;
+		  position: absolute;
+		  width: 65%;
+	}
+  
+  
+	video {
+	  height: 50%;
+	  width: 100%;
+	  position: relative;
+	
+	}
+  
+	.pro {
+	  margin-top: auto;
+	  font-size: 7em;	
+	  width: 100%;
+	  text-align: center;
+	  text-transform: uppercase;
+	  position: fixed;
+	  
   }
-
-  h1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    font-size: 7em;
-
     
     
 }
@@ -349,52 +365,52 @@ transition: transform .2s;
 @media (min-width:600px ) {
 
     .backbtn { 
-    padding-top: 100px;
-	padding-bottom: 0%;
-    width: auto;
-    display: flex;
-   position: fixed;
+		margin-top: 26.5%;
+		width: auto;
+		display: flex;
+	   position: fixed;
+	   font-size: 1.7em;
+	  
+	  }
   
+  
+	  .btn {
+	 display: flex;
+	 position: absolute;
+	 width: 100%;
+	justify-content: center;
+	  padding-top: 3%;
+	  padding-bottom: 3%;
+	  font-size: 1.2em;
+	
+		  
+	}
+  
+	  .container {
+		  margin-top: 24%;
+		  margin-left:19%;
+		  margin-left: 19%;
+		  position: absolute;
+		  width: 65%;
+	}
+  
+  
+	video {
+	  height: 50%;
+	  width: 100%;
+	  position: relative;
+	
+	}
+  
+	.pro {
+	  margin-top: auto;
+	  font-size: 8em;	
+	  width: 100%;
+	  text-align: center;
+	  text-transform: uppercase;
+	  position: fixed;
+	  
   }
-
-
-  .btn {
- display: flex;
- position: absolute;
- width: 79.5%;
-justify-content: center;
-height: 4.5%;
-padding-bottom: 1.5%;
-      
-}
-
-  .qP {
-    margin-top: 25%;
-    padding: 5px;
-    margin-left: 13%;
-    position: relative;
-
-}
-
-
-video {
-  height: 70%;
-  width: 90%;
-  position: relative;
-
-}
-
-h1 {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  font-size: 7em;
-
-  
-  
-}
 
 
     
@@ -404,53 +420,52 @@ h1 {
   @media (min-width:768px ) {
 
 	.backbtn { 
-      padding-top: 100px;
-	  padding-bottom: 0%;
-      width: auto;
-      display: flex;
-     position: fixed;
-    
-    }
-
-
-    .btn {
-      display: flex;
-      position: absolute;
-      width: 71.5%;
-     justify-content: center;
-     height: 4.3%;
-     padding-bottom: 1%;
-           
-     }
-
-     .qP {
-      margin-top: 25%;
-      padding: 5px;
-      margin-left: 20%;
-      position: relative;
-      font-size: 1em;
+		margin-top: 20%;
+		width: auto;
+		display: flex;
+	   position: fixed;
+	   font-size: 1.7em;
+	  
+	  }
   
+  
+	  .btn {
+	 display: flex;
+	 position: absolute;
+	 width: 100%;
+	justify-content: center;
+	  padding-top: 3%;
+	  padding-bottom: 3%;
+	  font-size: 1.5em;
+	
+		  
+	}
+  
+	  .container {
+		  margin-top: 19%;
+		  margin-left:19%;
+		  margin-left: 19%;
+		  position: absolute;
+		  width: 65%;
+	}
+  
+  
+	video {
+	  height: 50%;
+	  width: 100%;
+	  position: relative;
+	
+	}
+  
+	.pro {
+	  margin-top: auto;
+	  font-size: 8em;	
+	  width: 100%;
+	  text-align: center;
+	  text-transform: uppercase;
+	  position: fixed;
+	  
   }
-  
-
-  video {
-    height: 50%;
-    width: 80%;
-    position: relative;
-  
-  }
-
-  h1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    font-size: 7em;
-
-    
-    
-}
     
   }
   
@@ -458,50 +473,52 @@ h1 {
   @media screen and (min-width: 1024px) {
 
 	.backbtn { 
-      padding-top: 100px;
-	  padding-bottom: 0%;
-      width: auto;
-      display: flex;
-     position: fixed;
-    
-    }
-
-
-    .btn {
-   display: flex;
-   position: absolute;
-   width: 72.5%;
-  justify-content: center;
-  height: 3.5%;
-  padding-bottom: 1%;
-        
-  }
-
-    .qP {
-      margin-top: 15%;
-      padding: 5px;
-      margin-left: 23%;
-      position: relative;
-      font-size: 1em;
+		margin-top: 17%;
+		width: auto;
+		display: flex;
+	   position: fixed;
+	   font-size: 1.7em;
+	  
+	  }
   
-  }
-
-  video {
-    height: 50%;
-    width: 80%;
-    position: relative;
   
+	  .btn {
+	 display: flex;
+	 position: absolute;
+	 width: 100%;
+	justify-content: center;
+	  padding-top: 3%;
+	  padding-bottom: 3%;
+	  font-size: 1.5em;
+	
+		  
+	}
+  
+	  .container {
+		  margin-top: 16%;
+		  margin-left:19%;
+		  margin-left: 19%;
+		  position: absolute;
+		  width: 65%;
+	}
+  
+  
+	video {
+	  height: 50%;
+	  width: 100%;
+	  position: relative;
+	
+	}
+  
+	.pro {
+	  margin-top: auto;
+	  font-size: 8em;	
+	  width: 100%;
+	  text-align: center;
+	  text-transform: uppercase;
+	  position: fixed;
+	  
   }
-
-  h1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    font-size: 7em; 
-    
-}
   
   }
 
@@ -510,51 +527,52 @@ h1 {
   @media screen and (min-width: 1200px) {
 
 	.backbtn { 
-      padding-top: 100px;
-	  padding-bottom: 0%;
-      width: auto;
-      display: flex;
-     position: fixed;
-    
-    }
-
-
-    .btn {
-   display: flex;
-   position: absolute;
-   width: 58.5%;
-  justify-content: center;
-  height: 2.5%;
-  padding-bottom: 2%;
-        
-  }
-
-    .qP {
-      margin-top: 15%;
-      padding: 5px;
-      margin-left: 26%;
-      position: relative;
-      font-size: 1em;
+		margin-top: 14%;
+		width: auto;
+		display: flex;
+	   position: fixed;
+	   font-size: 1.7em;
+	  
+	  }
   
-  }
-
-
-  video {
-    height: 50%;
-    width: 65%;
-    position: relative;
   
+	  .btn {
+	 display: flex;
+	 position: absolute;
+	 width: 100%;
+	justify-content: center;
+	  padding-top: 3%;
+	  padding-bottom: 3%;
+	  font-size: 2em;
+	
+		  
+	}
+  
+	  .container {
+		  margin-top: 13%;
+		  margin-left:19%;
+		  margin-left: 19%;
+		  position: absolute;
+		  width: 65%;
+	}
+  
+  
+	video {
+	  height: 50%;
+	  width: 100%;
+	  position: relative;
+	
+	}
+  
+	.pro {
+	  margin-top: auto;
+	  font-size: 8em;	
+	  width: 100%;
+	  text-align: center;
+	  text-transform: uppercase;
+	  position: fixed;
+	  
   }
-
-  h1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    font-size: 7em;
-    
-}
 
   }
 
@@ -562,67 +580,62 @@ h1 {
   @media screen and (min-width: 1400px) {
 
 	.backbtn { 
-      padding-top: 125px;
-	  padding-bottom: 0%;
-      width: auto;
-      display: flex;
-     position: fixed;
-     
-    
-    }
-
-
-    .btn {
-   display: flex;
-   position: absolute;
-   width: 59.5%;
-  justify-content: center;
-  height: 4%;
-  padding-bottom: 1%;
-        
-  }
-
-    .qP {
-      margin-top: 14%;
-      padding: 5px;
-      margin-left: 26%;
-      position: relative;
-    
+		margin-top: 12.5%;
+		width: auto;
+		display: flex;
+	   position: fixed;
+	   font-size: 1.7em;
+	  
+	  }
   
-  }
-
-  .qP2{
-    margin-top: 10%;
-  }
-
-
-  video {
-    height: 50%;
-    width: 65%;
-    position: relative;
   
+	  .btn {
+	 display: flex;
+	 position: absolute;
+	 width: 100%;
+	justify-content: center;
+	  padding-top: 3%;
+	  padding-bottom: 3%;
+	  font-size: 2em;
+	
+		  
+	}
+  
+	  .container {
+		  margin-top: 13.5%;
+		  margin-left:19%;
+		  margin-left: 19%;
+		  position: absolute;
+		  width: 65%;
+	}
+  
+  
+	video {
+	  height: 50%;
+	  width: 100%;
+	  position: relative;
+	
+	}
+  
+	.pro {
+	  margin-top: auto;
+	  font-size: 8em;	
+	  width: 100%;
+	  text-align: center;
+	  text-transform: uppercase;
+	  position: fixed;
+	  
   }
-
-  h1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    font-size: 7em;
-    
-}
   }
 
   @media screen and (min-width: 1600px) {
 
 	.backbtn { 
-      padding-top: 107px;
-	  padding-bottom: 0%;
+      margin-top: 12%;
       width: auto;
       display: flex;
      position: fixed;
-     
+	 font-size: 1.7em;
     
     }
 
@@ -630,41 +643,40 @@ h1 {
     .btn {
    display: flex;
    position: absolute;
-   width: 59.8%;
+   width: 100%;
   justify-content: center;
-  height: 3.5%;
-  padding-bottom: 1%;
+    padding-top: 3%;
+	padding-bottom: 3%;
+	font-size: 2em;
+  
         
   }
 
-    .qP {
-      margin-top: 12%;
-      padding: 5px;
-      margin-left: 26%;
-      position: relative;
-    
-  
-  }
-
-  .qP2{
-    margin-top: 10%;
+    .container {
+		margin-top: 13%;
+		margin-left:19%;
+		margin-left: 19%;
+		position: absolute;
+		width: 65%;
   }
 
 
   video {
     height: 50%;
-    width: 65%;
+    width: 100%;
     position: relative;
   
   }
 
-  h1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    font-size: 7em;
+  .pro {
+	margin-top: auto;
+    font-size: 8em;	
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+	position: fixed;
     
 }
   }
+
+  
