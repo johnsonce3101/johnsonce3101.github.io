@@ -12,7 +12,18 @@
 	background-image: linear-gradient(to right,rgb(73, 73, 73),rgb(24, 24, 24), rgb(0,0,0), rgb(0,0,0), rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0));
 	
   }
-
+  /* #productpage {
+	background: -webkit-linear-gradient(#fff, rgb(255, 0, 0, 1), rgba(255, 0, 76));
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    
+} */
 
 
   #designbtn:hover {
@@ -24,11 +35,36 @@
     text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
   }
 
+
+  /* #Hero{
+	background: -webkit-linear-gradient(#fff, rgb(21, 40, 82), rgb(4, 122, 158),rgb(21, 40, 82));
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    
+} */
+
+
   #designbtn1:hover {
     background-image: linear-gradient( 15deg,
 	rgb(21, 40, 82) 0%,
 	rgb(4, 122, 158) 100%, 
 	rgb(21, 40, 82) 0%);;
+    color:rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
+  }
+
+  #designbtn2:hover {
+    background-image: linear-gradient( 15deg,
+	#1b0800 0%,
+	#ff3c00 100%, 
+	#f76a33 0%);;
     color:rgb(0, 0, 0);
     font-family: 'Oswald', sans-serif;
     text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
