@@ -129,7 +129,7 @@ align-items: center;
   }
   
   .li:hover, .li:active {
-    background-color: orangered;
+    background-color: #FD5E53;
     height: 100px;
   width: 100px;
   border:none;
