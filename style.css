@@ -129,7 +129,7 @@ align-items: center;
   }
   
   .li:hover, .li:active {
-    background-color: #FD5E53;
+    background-color: #f06553;
     height: 100px;
   width: 100px;
   border:none;
@@ -137,7 +137,7 @@ align-items: center;
   transition: 100px;
   transition:0.5s;
   transform:translateX(-20px)rotate(30deg);
-  transition:0.5s;
+
   }
 
  .img {
