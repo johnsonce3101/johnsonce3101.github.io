@@ -70,6 +70,15 @@
     text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
   }
 
+  #designbtn3:hover {
+    background-image: linear-gradient( 15deg,
+	#1d1d1d 0%,
+	#F2E4CD 100%);
+    color:rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
+  }
+
 
 .pro {
     mix-blend-mode:overlay;
