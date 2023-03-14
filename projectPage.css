@@ -123,6 +123,34 @@
     text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
   }
 
+  #designbtn8:hover {
+    background-image: linear-gradient( 15deg,
+	#120D15 20%,
+	#41466E 80%);
+    color:rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
+  }
+
+  #designbtn9:hover {
+    background-image: linear-gradient( 15deg,
+	#C5AD9E 20%,
+	#D4814E 80%);
+    color:rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
+  }
+
+
+  #designbtn10:hover {
+    background-image: linear-gradient( 15deg,
+	#C5AD9E 20%,
+	#D4814E 80%);
+    color:rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
+  }
+
 .pro {
     mix-blend-mode:overlay;
     text-shadow: 6px 6px 6px   rgb(53, 50, 50) ;
