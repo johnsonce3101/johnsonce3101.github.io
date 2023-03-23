@@ -215,6 +215,20 @@ height: 65vh;
     
 }
 
+.QT2 {
+	/* background: -webkit-linear-gradient(#fff, rgb(214, 214, 214), rgb(50, 50, 50));
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; */
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+	margin-top: -2%;
+    
+}
+
 .container {
 	/* background-color: black; */
     margin-top: 13%;
