@@ -9,8 +9,9 @@
 
 
   body{ 
-	background-image: linear-gradient(to right,rgb(73, 73, 73),rgb(24, 24, 24), rgb(0,0,0), rgb(0,0,0), rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0));
-	
+	background-image: linear-gradient(-90deg,#000 7%,#000 17%,#000 29%,#000 44%,#000 66%,#000 83%,#000 97%,#8886B3 100%,#000);
+
+	/* 90deg,#000 7%,#000 17%,#000 29%,#000 44%,#000 66%,#000 83%,#000 96%,#f34804 100%,#000 */
   }
   /* #productpage {
 	background: -webkit-linear-gradient(#fff, rgb(255, 0, 0, 1), rgba(255, 0, 76));
@@ -166,7 +167,7 @@
 
 
 .backbtn { 
-	background: -webkit-linear-gradient(#fff, rgb(214, 214, 214), rgb(50, 50, 50));
+	background: -webkit-linear-gradient(#fff, rgb(168, 168, 168), rgb(255, 255, 255));
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
     color: #fff;
@@ -182,7 +183,7 @@ transition: transform .2s;
 }
 
 .backbtn:hover {
-	background: -webkit-linear-gradient(rgb(0, 119, 255), rgb(32, 108, 196), rgb(0, 26, 56));
+	background: -webkit-linear-gradient(#DFA5B1, #f06553, rgb(1, 43, 90));
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
   
@@ -200,6 +201,7 @@ video{
 iframe{
 width: 100%;
 height: 65vh;
+border-radius: 24px;
 }
 
 .QT {
@@ -240,6 +242,7 @@ height: 65vh;
 }
 
 .btn {
+	border-radius: 56px;
     border: none;
     cursor: pointer;
     display: flex;
