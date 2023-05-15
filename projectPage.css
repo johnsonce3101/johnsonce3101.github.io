@@ -25,7 +25,9 @@
     flex-direction: row;
     
 } */
-
+ul{
+	list-style: none;
+}
 
   #designbtn:hover {
     background-image: linear-gradient( 15deg,
