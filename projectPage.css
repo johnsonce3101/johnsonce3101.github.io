@@ -283,7 +283,7 @@ border-radius: 24px;
 
   .btn{
     border: none;
-    background-image: linear-gradient(to bottom right,rgb(0, 0, 0), rgb(16, 17, 19), #121212);
+    background-image: linear-gradient(to bottom right,rgb(127, 127, 127), #121212);
     color: whitesmoke;
     text-decoration: none;
     display: block;
