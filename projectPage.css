@@ -4,12 +4,12 @@
     height: 22.5%;
     /* position: fixed; */
 	position: absolute;
-
   }
 
 
   body{ 
-	background-image: linear-gradient(-90deg,#000 7%,#000 17%,#000 29%,#000 44%,#000 66%,#000 83%,#000 97%,#8886B3 100%,#000);
+	/* background-image: linear-gradient(-90deg,#000 7%,#000 17%,#000 29%,#000 44%,#000 66%,#000 83%,#000 100%,#8886B3 100%,#000); */
+	background-color: black;
 
 	/* 90deg,#000 7%,#000 17%,#000 29%,#000 44%,#000 66%,#000 83%,#000 96%,#f34804 100%,#000 */
   }
@@ -187,10 +187,10 @@ ul{
 
 
 .backbtn { 
-	background: -webkit-linear-gradient(#fff, rgb(168, 168, 168), rgb(255, 255, 255));
-	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-    color: #fff;
+	/* background: -webkit-linear-gradient(#fff, rgb(168, 168, 168), rgb(255, 255, 255));
+	-webkit-background-clip: text; */
+  	/* -webkit-text-fill-color: transparent; */
+color: #fff;
 text-decoration: none;
 margin-top: 12%;
   width: auto;
@@ -203,12 +203,13 @@ transition: transform .2s;
 }
 
 .backbtn:hover {
-	background: -webkit-linear-gradient(#DFA5B1, #f06553, rgb(1, 43, 90));
+	/* background: -webkit-linear-gradient(#DFA5B1, #f06553, rgb(1, 43, 90));
 	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+  	-webkit-text-fill-color: transparent; */
+	  color:#BCBCBC;
   
     font-family: 'Oswald', sans-serif;
-    text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ;
+    /* text-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.5) ; */
 	transform: scale(1.02);
   }
 
@@ -225,10 +226,10 @@ border-radius: 24px;
 }
 
 .QT {
-	background: -webkit-linear-gradient(#fff, rgb(214, 214, 214), rgb(50, 50, 50));
+	/* background: -webkit-linear-gradient(#fff, rgb(214, 214, 214), rgb(50, 50, 50));
 	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-    color: #fff;
+  	-webkit-text-fill-color: transparent; */
+    color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
     display: flex;
@@ -241,7 +242,7 @@ border-radius: 24px;
 	/* background: -webkit-linear-gradient(#fff, rgb(214, 214, 214), rgb(50, 50, 50));
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; */
-    color: #fff;
+    color: #7D7D7D;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
     display: flex;
